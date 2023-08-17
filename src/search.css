@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: bisque;
+}
+
+.mainheader h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+.main {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  padding: 10px;
+  width: 800px;
+  border: 3px solid black;
+}
+
+.inputbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-list {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#table {
+  margin: 10px auto;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+td {
+  padding: 8px;
+}
+
+th {
+  padding: 8px;
+}
